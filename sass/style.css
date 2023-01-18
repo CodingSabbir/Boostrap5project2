@@ -1,0 +1,72 @@
+
+.navbar{
+    box-shadow:2px 2px 5px;
+    color: #9DF1DF;
+    background: #fff;
+    opacity: 0.9;
+}
+.nav-item{
+    font-size: 20px;
+    padding-right: 7px;
+}
+#navbar a{
+    color: black;
+}
+#navbar a:hover{
+    color: rgb(23, 240, 229);
+}
+
+.nav-item:last-child{
+    padding-right: 0;
+}
+/* Shocase-section */
+#shocase{
+   background-image: url('../src/img/overlay.jpg');
+   background-position-x: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 600px;
+}
+.primary-overlay{
+    background:rgba(50, 146, 156, .7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#shocase h1{
+padding-top: 100px;
+margin-top: 50px;
+}
+#shocase img{
+    padding-top: 100px;
+    margin-top: 50px;
+    opacity: 0.8;
+    }
+    /* subceribe-section */
+    #subceribe{
+        background: #252525;
+    }
+     /* Authors-section  */
+     #Authors img{
+        margin-top: -60px;
+     }
+    .card:hover{
+        background: #0081C9;
+        color: #fff;
+     }
+     .fa:hover{
+       color: aliceblue;
+     }
+    @media(max-width:576px) {
+        #shocase h1{
+            font-size:40px;
+        }
+        .card .bottom{
+            margin-bottom: 70px;
+        } 
+    }
+
+ 
